@@ -17,7 +17,7 @@ export default function CreateOtherDocumentCard({ className }) {
       <CardHeader>
         <CardTitle>Insérer un autre document</CardTitle>
         <CardDescription>
-          Insérer un autre document dans le banque de documents
+          Insérer un autre document dans la docuthèque
         </CardDescription>
       </CardHeader>
       <CardContent className="flex justify-center">

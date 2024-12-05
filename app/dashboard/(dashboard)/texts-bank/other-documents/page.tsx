@@ -37,6 +37,17 @@ export default function OtherDocumentsPage() {
                 </span>
               </Link>
             </Button>
+            <Button
+              asChild
+              className="gap-2"
+            >
+              <Link href={TextsBankRoutes.textsList}>
+                <Newspaper />
+                <span className="sr-only sm:not-sr-only">
+                  Consulter les textes
+                </span>
+              </Link>
+            </Button>
           </div>
         </div>
         <h1 className="relative text-center text-2xl font-bold sm:text-3xl md:text-4xl">

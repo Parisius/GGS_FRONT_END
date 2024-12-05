@@ -6,7 +6,12 @@ import {
 } from "@/components/ui/card";
 import { cn, formatDate } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { LegalMonitoringRoutes } from "@/config/routes";
+import Link from "next/link";
+import { MoveRight } from "lucide-react";
 export default function JudicialItemCard({
+  id,
   title,
   eventDate,
   jurisdiction,
@@ -32,6 +37,15 @@ export default function JudicialItemCard({
           >
             {isArchived ? "Archivé" : "Envoyé par mail"}
           </Badge>
+          <Button
+            asChild
+            variant="link"
+            className="gap-3 px-4 italic"
+          >
+            <Link href={LegalMonitoringRoutes.judicialItemPage(id).index}>
+              Voir details <MoveRight />
+            </Link>
+          </Button>
         </CardDescription>
       </CardHeader>
     </Card>

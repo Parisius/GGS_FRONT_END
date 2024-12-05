@@ -26,7 +26,7 @@ export default function AssignCollaboratorsForm({
         {
           onSuccess: () => {
             toast({
-              description: "Les collaborateurs ont été assignés avec succès.",
+              description: "Les collaborateurs ont été affectés avec succès.",
               className: "bg-primary text-primary-foreground",
             });
             onSuccess?.();

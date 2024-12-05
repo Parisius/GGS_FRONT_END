@@ -30,7 +30,7 @@ export default function AddTextItemDialog(props) {
           <DialogHeader>
             <DialogTitle>Nouveau texte</DialogTitle>
             <DialogDescription>
-              Ajouter un texte à la banque de documents
+              Ajouter un texte à la docuthèque
             </DialogDescription>
           </DialogHeader>
           <AddTextForm

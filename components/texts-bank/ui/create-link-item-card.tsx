@@ -17,7 +17,7 @@ export default function CreateLinkItemCard({ className }) {
       <CardHeader>
         <CardTitle>Insérer un nouveau lien</CardTitle>
         <CardDescription>
-          Insérer un nouveau lien dans le banque de documents
+          Insérer un nouveau lien dans la docuthèque
         </CardDescription>
       </CardHeader>
       <CardContent className="flex justify-center">

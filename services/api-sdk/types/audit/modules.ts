@@ -65,8 +65,8 @@ export const auditModules = [
   {
     value: "management_committees",
     labels: {
-      singular: "Conseil de Direction",
-      plural: "Conseils de Direction",
+      singular: "Comité de Direction",
+      plural: "Comités de Direction",
     },
   },
 ];

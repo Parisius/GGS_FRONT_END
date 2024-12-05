@@ -37,6 +37,7 @@ export function JudicialItemsListComponent() {
             href={LegalMonitoringRoutes.judicialItemPage(id).index}
           >
             <JudicialItemCard
+              id={id}
               title={title}
               jurisdiction={jurisdiction.title}
               eventDate={eventDate}

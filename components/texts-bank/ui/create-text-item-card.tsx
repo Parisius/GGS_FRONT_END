@@ -17,7 +17,7 @@ export default function CreateTextItemCard({ className }) {
       <CardHeader>
         <CardTitle>Insérer un nouveau texte</CardTitle>
         <CardDescription>
-          Insérer un nouveau texte dans le banque de documents
+          Insérer un nouveau texte dans la docuthèque
         </CardDescription>
       </CardHeader>
       <CardContent className="flex justify-center">

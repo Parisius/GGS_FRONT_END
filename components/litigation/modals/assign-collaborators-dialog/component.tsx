@@ -42,9 +42,9 @@ export function AssignCollaboratorsDialogComponent({ litigationId, ...props }) {
       <FormProvider {...form}>
         <DialogContent className="max-w-2xl">
           <DialogHeader>
-            <DialogTitle>Assigner des collaborateurs / avocats</DialogTitle>
+            <DialogTitle>Affecter des collaborateurs / avocats</DialogTitle>
             <DialogDescription>
-              Assigner des collaborateurs et des avocats à ce dossier.
+              Affecter des collaborateurs et des avocats à ce dossier.
             </DialogDescription>
           </DialogHeader>
           {isLoading ? (
@@ -75,7 +75,7 @@ export function AssignCollaboratorsDialogComponent({ litigationId, ...props }) {
                   {form.formState.isSubmitting ? (
                     <EllipsisLoader />
                   ) : (
-                    "Assigner"
+                    "Affecter"
                   )}
                 </Button>
               </DialogFooter>

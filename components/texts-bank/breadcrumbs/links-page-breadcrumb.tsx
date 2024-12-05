@@ -35,7 +35,7 @@ export function LinksPageBreadcrumb() {
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem asChild>
-                <Link href={TextsBankRoutes.index}>Banque de documents</Link>
+                <Link href={TextsBankRoutes.index}>Docuthèque</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -43,7 +43,7 @@ export function LinksPageBreadcrumb() {
         <div className="hidden sm:contents">
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-              <Link href={TextsBankRoutes.index}>Banque de documents</Link>
+              <Link href={TextsBankRoutes.index}>Docuthèque</Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
         </div>

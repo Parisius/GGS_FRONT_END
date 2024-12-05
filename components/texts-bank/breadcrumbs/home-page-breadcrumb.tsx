@@ -22,7 +22,7 @@ export function HomePageBreadcrumb() {
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbPage>Banque de documents</BreadcrumbPage>
+          <BreadcrumbPage>Docuthèque</BreadcrumbPage>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
