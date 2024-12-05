@@ -100,7 +100,7 @@ export function LitigationDetailsTable({
                   </Button>
                 </TooltipTrigger>
               </AssignCollaboratorsDialog>
-              <TooltipContent>Assigner</TooltipContent>
+              <TooltipContent>Affecter</TooltipContent>
             </Tooltip>
 
             <Tooltip>
