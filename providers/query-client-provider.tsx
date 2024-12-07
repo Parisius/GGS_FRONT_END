@@ -3,8 +3,8 @@ import {
   QueryClient,
   QueryClientProvider as TSQueryClientProvider,
 } from "@tanstack/react-query";
+const queryClient = new QueryClient();
 export default function QueryClientProvider({ children }) {
-  const queryClient = new QueryClient();
   return (
     <TSQueryClientProvider client={queryClient}>
       {children}
