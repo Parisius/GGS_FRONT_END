@@ -11,8 +11,8 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 export const metadata = {
-  title: "CLS - Corporate Legal Soft",
-  description: "Corporate Legal Soft (CLS) is a legal software for corporates.",
+  title: "GGS - Gov Governance Soft",
+  description: "Gov Governance Soft (GGS) is a legal software for Government Institution.",
 };
 export default function RootLayout({ children }) {
   return (
