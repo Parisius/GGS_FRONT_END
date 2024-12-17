@@ -15,9 +15,9 @@ export default function EmptyAdministrationMeetingCard({ className }) {
   return (
     <Card className={cn("max-w-96", className)}>
       <CardHeader>
-        <CardTitle>Planifier une session de CA</CardTitle>
+        <CardTitle>Planifier une session du Conseil des Ministres</CardTitle>
         <CardDescription>
-          Vous n&apos;avez aucune session de CA en cours de préparation
+          Vous n&apos;avez aucune session de CM en cours de préparation
         </CardDescription>
       </CardHeader>
       <CardContent className="flex justify-center">
@@ -32,7 +32,7 @@ export default function EmptyAdministrationMeetingCard({ className }) {
         <AddAdministrationMeetingDialog asChild>
           <Button className="gap-2">
             <FolderPlus />
-            Nouveau CA
+            Nouveau CM
           </Button>
         </AddAdministrationMeetingDialog>
       </CardFooter>

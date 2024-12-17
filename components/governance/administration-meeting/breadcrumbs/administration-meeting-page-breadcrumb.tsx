@@ -30,7 +30,7 @@ export function AdministrationMeetingPageBreadcrumb() {
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbPage>Conseil d&apos;administration</BreadcrumbPage>
+          <BreadcrumbPage>Conseil des ministres</BreadcrumbPage>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>

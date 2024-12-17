@@ -41,7 +41,7 @@ export function AdministrationMeetingDetailsPageBreadcrumb({ meetingTitle }) {
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link href={AdministrationMeetingRoutes.index}>
-                  Conseil d&apos;administration
+                  Conseil des ministres
                 </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
@@ -59,7 +59,7 @@ export function AdministrationMeetingDetailsPageBreadcrumb({ meetingTitle }) {
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
               <Link href={AdministrationMeetingRoutes.index}>
-                Conseil d&apos;administration
+                Conseil des ministres
               </Link>
             </BreadcrumbLink>
           </BreadcrumbItem>

@@ -33,13 +33,13 @@ export default function AdministrationMeetingForm({ formId, onSubmit }) {
           name="title"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Intitulé du CA</FormLabel>
+              <FormLabel>Intitulé du CM</FormLabel>
               <FormControl>
                 <div className="relative">
                   <Input
                     {...field}
                     disabled={form.formState.isSubmitting}
-                    placeholder="Intitulé du CA"
+                    placeholder="Intitulé du CM"
                     className="h-12 pl-10"
                   />
                   <Tag className="absolute bottom-1/2 left-3 translate-y-1/2 text-foreground/50" />
@@ -55,7 +55,7 @@ export default function AdministrationMeetingForm({ formId, onSubmit }) {
           name="meetingType"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Type du CA</FormLabel>
+              <FormLabel>Type du CM</FormLabel>
               <FormControl>
                 <Select
                   value={field.value}
@@ -86,7 +86,7 @@ export default function AdministrationMeetingForm({ formId, onSubmit }) {
           name="meetingDate"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Date de tenue du CA</FormLabel>
+              <FormLabel>Date de tenue du CM</FormLabel>
               <FormControl>
                 <DateInput
                   value={field.value}

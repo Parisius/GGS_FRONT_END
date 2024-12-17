@@ -16,7 +16,7 @@ export default function AddAdministrationMeetingForm({
       await mutateAsync(data, {
         onSuccess: (createdData) => {
           toast({
-            description: "Session de CA planifiée avec succès !",
+            description: "Session de CM planifiée avec succès !",
             className: "bg-primary text-primary-foreground",
           });
           onSuccess?.(createdData);

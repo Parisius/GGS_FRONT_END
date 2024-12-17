@@ -1,8 +1,10 @@
 {
   "governance": "Governance",
   "shareholding": "Shareholding structure",
+  "ministerCouncil": "Council of Ministers",
   "generalMeeting": "General Meeting",
   "boardOfDirectors": "Board of Directors",
+  "steeringCommittee": "Steering Committee/Policy Board",
   "managementCommittee": "Management Committee",
   "contracts": "Contract",
   "safety": "Safety",

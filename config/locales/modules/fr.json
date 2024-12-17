@@ -1,8 +1,10 @@
 {
   "governance": "Gouvernance",
   "shareholding": "Structure de l’actionnariat",
+  "ministerCouncil": "Conseil des ministres",
   "generalMeeting": "Assemblée Générale",
   "boardOfDirectors": "Conseil d’Administration",
+  "steeringCommittee": "Comité de Pilotage/Conseil d'orientation",
   "managementCommittee": "Direction Générale",
   "contracts": "Contrat",
   "safety": "Suretes",

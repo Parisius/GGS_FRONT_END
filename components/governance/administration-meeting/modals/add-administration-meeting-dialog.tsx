@@ -35,9 +35,9 @@ export default function AddAdministrationMeetingDialog(props) {
       <FormProvider {...form}>
         <DialogContent className="max-w-md">
           <DialogHeader>
-            <DialogTitle>Nouvelle session de CA</DialogTitle>
+            <DialogTitle>Nouvelle session de CM</DialogTitle>
             <DialogDescription>
-              Planifier une nouvelle session de conseil d&apos;administration
+              Planifier une nouvelle session du Conseil des ministres
             </DialogDescription>
           </DialogHeader>
           <AddAdministrationMeetingForm

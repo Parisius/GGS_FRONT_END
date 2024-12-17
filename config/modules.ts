@@ -11,6 +11,7 @@ import TextBankIcon from "@/components/ui/text-bank-icon";
 import {
   AccountIncidentRoutes,
   AdministrationMeetingRoutes,
+  SteeringCommitteeRoutes,
   AuditRoutes,
   ContractRoutes,
   EvaluationRoutes,
@@ -51,6 +52,14 @@ export const getModulesData = (intl) => [
         }),
       },
       {
+        slug: "minister-council",
+        href: AdministrationMeetingRoutes.index,
+        name: intl.formatMessage({
+          id: "modules.ministerCouncil",
+          defaultMessage: "Council of Ministers",
+        }),
+      },
+      {
         slug: "general-meeting",
         href: GeneralMeetingRoutes.index,
         name: intl.formatMessage({
@@ -64,6 +73,14 @@ export const getModulesData = (intl) => [
         name: intl.formatMessage({
           id: "modules.boardOfDirectors",
           defaultMessage: "Board of Directors",
+        }),
+      },
+      {
+        slug: "steering-committee",
+        href: SteeringCommitteeRoutes.index,
+        name: intl.formatMessage({
+          id: "modules.steeringCommittee",
+          defaultMessage: "Steering Committee",
         }),
       },
       {
