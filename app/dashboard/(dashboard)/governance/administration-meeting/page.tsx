@@ -29,13 +29,13 @@ export default function AdministrationMeetingPage() {
                 className="gap-2"
               >
                 <Users />
-                Voir les administrateurs
+                Voir les ministres
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <AdministratorsModal asChild>
                 <DropdownMenuItem onSelect={(event) => event.preventDefault()}>
-                  Liste des administrateurs
+                  Liste des ministres
                 </DropdownMenuItem>
               </AdministratorsModal>
 
