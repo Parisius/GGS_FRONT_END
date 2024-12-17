@@ -55,7 +55,7 @@ export default function Page({ params: { id } }) {
           meetingTitle={data.title}
         >
           <Button
-            aria-label="Planification du CA"
+            aria-label="Planification du CM"
             className="gap-2"
           >
             <GanttChart />

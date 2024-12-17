@@ -29,7 +29,7 @@ export default function AdministrationMeetingTimelineModal({
       >
         <SheetHeader>
           <div className="sm:flex sm:items-center sm:justify-between">
-            <SheetTitle>Planification du CA</SheetTitle>
+            <SheetTitle>Planification du CM</SheetTitle>
             <AddTaskDialog
               asChild
               meetingId={meetingId}
