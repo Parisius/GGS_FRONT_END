@@ -15,7 +15,7 @@ export default function EmptySteeringCommitteeCard({ className }) {
   return (
     <Card className={cn("max-w-96", className)}>
       <CardHeader>
-        <CardTitle>Planifier une session de Conseil d'Administration</CardTitle>
+        <CardTitle>Planifier une session de Conseil d\'Administration</CardTitle>
         <CardDescription>
           Vous n&apos;avez aucune session de CA en cours de préparation
         </CardDescription>
