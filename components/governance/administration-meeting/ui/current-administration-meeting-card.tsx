@@ -30,7 +30,7 @@ export default function CurrentAdministrationMeetingCard({
     <Card className={cn("w-full", className)}>
       <CardHeader className="gap-3">
         <CardDescription className="italic">
-          Vous avez une session de CA en cours de préparation
+          Vous avez une session de CM en cours de préparation
         </CardDescription>
         <div className="flex items-center gap-2">
           <CardTitle className="line-clamp-2">{title}</CardTitle>
